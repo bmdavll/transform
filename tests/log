@@ -1,0 +1,61 @@
+./expr.sh
+100
+200
+300
+400
+500
+600
+700
+800
+900
+1000
+[32;1mall tests passed[0m
+
+./expr.sh 50 time
+perl -p
+0.01s    63.96%
+../transform.py
+0.14s    98.28%
+
+./expr.sh 200 time
+perl -p
+0.02s    90.31%
+../transform.py
+0.17s    96.32%
+
+./expr.sh 1000 time
+perl -p
+0.12s    92.58%
+../transform.py
+0.47s    94.63%
+
+./expr.sh 5000 time
+perl -p
+0.95s    90.67%
+../transform.py
+2.36s    97.47%
+
+./expr.sh 50 time
+perl -p
+0.01s    99.84%
+../transform.py
+0.11s    94.64%
+
+./expr.sh 200 time
+perl -p
+0.02s    95.53%
+../transform.py
+0.15s    93.59%
+
+./expr.sh 1000 time
+perl -p
+0.12s    89.53%
+../transform.py
+0.40s    99.11%
+
+./expr.sh 5000 time
+perl -p
+0.64s    91.17%
+../transform.py
+1.69s    96.42%
+
